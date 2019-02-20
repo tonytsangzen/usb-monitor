@@ -6,5 +6,10 @@ sys.path.append("../host/src/")
 sys.path.append("C:/Python27/Lib/site-packages")
 setup(
         console=["../host/src/legency.py"],
-		options = {'py2exe': {'compressed': True}}
+		options = {'py2exe': 
+			{
+				'compressed': True,
+				'packages': ['cffi', 'cryptography']
+			}
+		}
 ) 

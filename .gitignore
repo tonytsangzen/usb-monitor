@@ -19,3 +19,5 @@ History
 *Output*
 *.pyc
 __Previews
+windows/build
+windows/dist
